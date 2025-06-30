@@ -35,6 +35,7 @@ type Token struct {
 	TeamID   string
 	IssuedAt int64
 	Bearer   string
+	test     string
 }
 
 // AuthKeyFromFile loads a .p8 certificate from a local file and returns a
